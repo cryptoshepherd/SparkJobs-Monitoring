@@ -1,0 +1,16 @@
+{
+    "@type": "MessageCard",
+    "@context": "http://schema.org/extensions",
+    "themeColor": "0076D7",
+    "summary": "Spark Job",
+    "sections": [{
+        "activityTitle": "![TestImage](https://abdelkrim.files.wordpress.com/2014/02/aaarr-webhooks-pirate.gif)Spark Monitoring",
+        "activitySubtitle": "app", //substitution
+        "activityImage": "https://abdelkrim.files.wordpress.com/2014/02/aaarr-webhooks-pirate.gif",
+        "facts": [{
+            "name": "Restart",
+            "value": "Spark Long Running Job Has Been Restarted"
+        }],
+        "markdown": true
+    }]
+}
